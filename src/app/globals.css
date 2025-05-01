@@ -52,4 +52,41 @@ body {
   }
 }
 
+/* ==== Responsive styles for 1440px ==== */
+@media (max-width: 1440px) {
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
 
+  .grid-cols-custom {
+    grid-template-columns: 1fr 2fr 1.5fr;
+    gap: 16px;
+  }
+
+  .car-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .car-info {
+    font-size: 0.95rem;
+  }
+
+  .car-status,
+  .car-location,
+  .car-vin {
+    font-size: 0.9rem;
+  }
+
+  .bid-panel {
+    font-size: 0.9rem;
+    padding: 12px;
+  }
+
+  .bid-button {
+    font-size: 0.95rem;
+    padding: 10px 16px;
+  }
+}
